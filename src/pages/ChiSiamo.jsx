@@ -7,40 +7,28 @@ export default function ChiSiamo() {
         <>
             <main>
 
-                <div className="container text-light text-center">
-                    <h4>HTML Solutions S.r.l.</h4>
+                <div className="container text-light text-center p-5">
+                    <h4>Food Lovers S.r.l.</h4>
                     <h2>Chi Siamo</h2>
-                    <p>HTML Solutions è un'azienda leader nello sviluppo web e software, specializzata in tecnologie moderne.</p>
+                    <p>Food Lovers è un'azienda dedicata alla promozione della cultura culinaria, specializzata in ricette e prodotti di qualità.</p>
 
                     <h2>Servizi</h2>
                     <ul className="list-unstyled">
-                        <li>Sviluppo di siti web ed e-commerce</li>
-                        <li>Web app personalizzate</li>
-                        <li>UI/UX Design</li>
-                        <li>SEO & Web Marketing</li>
-                        <li>Assistenza tecnica e manutenzione</li>
+                        <li>Ricette tradizionali e innovative</li>
+                        <li>Consulenza culinaria</li>
+                        <li>Organizzazione di eventi gastronomici</li>
+                        <li>Vendita di prodotti alimentari artigianali</li>
+                        <li>Corsi di cucina</li>
                     </ul>
 
                     <h2>Contatti</h2>
-                    <p>📍 Indirizzo: Via Roma, 123, Milano, Italia</p>
-                    <p>📞 Telefono: +39 02 1234 5678</p>
-                    <p>📧 Email: info@htmlsolutions.it</p>
+                    <p>📍 Indirizzo: Via del Gusto, 45, Bologna, Italia</p>
+                    <p>📞 Telefono: +39 051 9876 5432</p>
+                    <p>📧 Email: info@foodlovers.it</p>
                 </div>
-                <p>&copy; 2025 HTML Solutions S.r.l. - Tutti i diritti riservati</p>
-
-
-
-
+                <p>&copy; 2025 Food Lovers S.r.l. - Tutti i diritti riservati</p>
 
             </main>
-
-
-
-
-
-
-
-
 
         </>
     )
