@@ -7,9 +7,20 @@ import ChiSiamo from "./pages/ChiSiamo"
 import DefoultLayout from "./layout/DefoultLayout"
 
 export default function App() {
+  const [postLists, setPostLists] = useState([])
+
+  useEffect(() => {
+    fetch('http://localhost:3000/api/v1/posts', {})
+      .then(res => {
+        return res.json();
+      })
+      .then(data => {
+        setPostLists(data)
+      })
+  }, [])
 
   return (
-    <PostContext.Provider value={[]}>
+    <PostContext.Provider value={{ postLists: postLists }}>
       <BrowserRouter>
 
         <Routes>
