@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import PostContext from "./contexts/PostContext"
 import HomePage from "./pages/HomePage"
 import PostLists from "./pages/PostLists"
 import Prodotto from "./pages/Prodotto"
@@ -8,7 +9,7 @@ import DefoultLayout from "./layout/DefoultLayout"
 export default function App() {
 
   return (
-    <>
+    <PostContext.Provider value={[]}>
       <BrowserRouter>
 
         <Routes>
@@ -24,7 +25,7 @@ export default function App() {
 
       </BrowserRouter>
 
-    </>
+    </PostContext.Provider>
   )
 }
 
