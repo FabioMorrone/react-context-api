@@ -1,4 +1,6 @@
+import { useEffect, useState } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 import PostContext from "./contexts/PostContext"
 import HomePage from "./pages/HomePage"
 import PostLists from "./pages/PostLists"
@@ -20,6 +22,7 @@ export default function App() {
   }, [])
 
   return (
+
     <PostContext.Provider value={{ postLists: postLists }}>
       <BrowserRouter>
 
